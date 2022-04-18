@@ -16,7 +16,7 @@
 #include QMK_KEYBOARD_H
 
 enum custom_keycodes {
-    KC_00 = SAFE_RANGE, //Double Zero
+    KC_00 = SAFE_RANGE, //Double Zero(00)
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
